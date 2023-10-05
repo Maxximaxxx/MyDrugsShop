@@ -42,8 +42,8 @@ body {
 .myDrugsNav {
     font-family: "SFPro-Regular";
     background: #12171E;
-    width: 100%;
-    height: 50px;
+    width: 200%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
