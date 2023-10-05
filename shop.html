@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HiddenDrugs">
+    <meta name="author" content="Kilian Peyron">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDrugsShop</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="myDrugsNav" id="myDrugsNav">
+        <a href="index.html"><div class="myDrugsNavLogo"><img src="assets/logo.png" alt="MyDrugs"></div></a>
+     
+
+    
+        <a href="javascript:void(0);" class="hambIcon"><i class='bx bx-menu'></i></a>
+    </div>
+    <div class="MyDrugsRespMenu">
+        <ul>
+            <a href="index.html" class="myDrugsNavItem">Home</a>
+            <a href="economy.html" class="myDrugsNavItem">Economy</a>
+            <a href="premium.html" class="myDrugsNavItem">Premium</a>
+            <a href="party-packs.html" class="myDrugsNavItem">Party Packs</a>
+            <a href="safety.html" class="myDrugsNavItem">Safety</a>
+            <a href="faq.html" class="myDrugsNavItem">FAQ</a>
+            <a href="contact.html" class="myDrugsNavItem">Contact</a>
+            <a href="" class="myDrugsNavItem"><i class='bx bx-search myDrugsNavItem'></i></a>
+            <a href="login.html" class="myDrugsLoginBtn myDrugsNavItem">Login</a>
+         </ul>
+    </div>
+
+    <main>
+       
+<div class="product">
+    <img src="assets/dwugs/1.jpg" alt="Product 2">
+    <h2>Drizzle Factory</h2>
+    <p>Plain Jane, Indica</p>
+    <p class="price">$40</p>
+
+</div>
+
+<div class="product">
+    <img src="assets/dwugs/2.jpg" alt="Product 2">
+    <h2>Drizzle Factory</h2>
+    <p>Candy Apple, Hybrid</p>
+    <p class="price">$40</p>
+
+</div>
+
+<div class="product">
+    <img src="assets/dwugs/3.jpg" alt="Product 2">
+    <h2>Wonka</h2>
+    <p>Orange Crush, Indica</p>
+    <p class="price">$45</p>
+
+</div>
+
+<div class="product">
+    <img src="assets/dwugs/4.jpg" alt="Product 2">
+    <h2>Wonka</h2>
+    <p>Cotton Candy, Hybrid</p>
+    <p class="price">$45</p>
+
+</div>
+
+<div class="product">
+    <img src="assets/dwugs/5.jpg" alt="Product 2">
+    <h2>Major League</h2>
+    <p>Chocolate, Hybrid</p>
+    <p class="price">$40</p>
+
+</div>
+        
+        <!-- Add more products here -->
+    </main>
+    <script>
+        const hamburger = document.querySelector(".hambIcon");
+        const navMenu = document.querySelector(".MyDrugsRespMenu");
+        hamburger.addEventListener("click", respMenu);
+        function respMenu() {
+          hamburger.classList.toggle("responsive");
+          navMenu.classList.toggle("responsive");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="assets/shop.js"></script>
+</body>
+</html>
